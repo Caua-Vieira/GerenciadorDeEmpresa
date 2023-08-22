@@ -1,13 +1,13 @@
 package Modelos
 
-abstract class Funcionarios (
+abstract class Funcionarios(
     val nome: String,
     val codigo: Int,
     val idade: Int,
     val tipoDeBeneficio: TipoBeneficio
 ) : Calculavel {
 
-    fun calcularBeneficio () : Double {
+    fun calcularBeneficio(): Double {
         val valorBeneficio = when (tipoDeBeneficio) {
             TipoBeneficio.PlanoDeSaude -> 125.0
             TipoBeneficio.Bonus -> 100.0
@@ -22,9 +22,8 @@ abstract class Funcionarios (
     }
 
     init {
-        totalDeFuncionarios ++
+        totalDeFuncionarios++
     }
-
 
 
 }

@@ -7,7 +7,7 @@ class FuncionarioComum(
     tipoDeBeneficio: TipoBeneficio,
 ) : Funcionarios(
     nome = nome,
-    codigo =  codigo,
+    codigo = codigo,
     idade = idade,
     tipoDeBeneficio = tipoDeBeneficio
 ) {
@@ -15,6 +15,7 @@ class FuncionarioComum(
     companion object {
         const val salarioFixo = 1400.0
     }
+
     override fun calcularSalario(): Double {
         return salarioFixo + calcularBeneficio()
     }

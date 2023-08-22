@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50510bdd-88f8-4d36-9cf8-652180d4214e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GerenciamentoDeFuncionarios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exceptions/FuncionarioInexistenteException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Calculavel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Empresa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioComissionado.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioComum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioPorHora.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Funcionarios.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Relatorios.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/TipoBeneficio.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exceptions/FuncionarioExistenteException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exceptions/FuncionarioInexistenteException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exceptions/FuncionarioInexistenteException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modelos/Empresa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Empresa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioComum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioComum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioPorHora.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/FuncionarioPorHora.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modelos/Funcionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Funcionarios.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Modelos/Relatorios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Modelos/Relatorios.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +53,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cauas\IdeaProjects\GerenciamentoDeFuncionarios\src\main\kotlin\Main" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Exceptions" />
       <recent name="Modelos" />
@@ -79,16 +71,5 @@
       <updated>1692279194874</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
